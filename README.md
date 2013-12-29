@@ -1,3 +1,19 @@
+jQuery Timepicker Addon Extension
+=======================
+
+About
+-----
+- Author: [Justin Lee]
+- Twitter: [@imjuni](http://twitter.com/imjuni)
+
+Use
+---
+It is extenson of the jquery-ui-timepicker addon. Jquery-ui-timepicker addon is very good addon, but that is totally same input phase format and display phase format. jQuery Timepicker Addon Extension is splited format input phase and display phase. 
+
+`inputDateFormat` and `inputTimeFormat` is new options. Timepicker has focus, change format `inputDateFormat` and `inputTimeFormat` after lose focus, change format `dateFormat` and `timeFormat`.    
+
+jQuery-ui timepicker addon Extension is mostly same jQuery-ui timepicker addon. so, attach original readme.
+
 jQuery Timepicker Addon
 =======================
 
@@ -9,6 +25,7 @@ About
 
 Use
 ---
+
 I recommend getting the eBook [Handling Time](https://sellfy.com/p/8gxZ) as it has a lot of example code to get started.  The quick and dirty:
 
 - To use this plugin you must include jQuery (1.6+) and jQuery UI with datepicker (and optionally slider).
