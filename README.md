@@ -15,7 +15,7 @@ It is extenson of the jquery-ui-timepicker addon. Jquery-ui-timepicker addon is 
 jQuery-ui timepicker addon Extension is mostly same jQuery-ui timepicker addon. so, attach original readme.
 
 jQuery Timepicker Addon
-=======================
+---
 
 About
 -----
