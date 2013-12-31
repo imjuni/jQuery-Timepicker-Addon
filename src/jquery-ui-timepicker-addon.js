@@ -1481,7 +1481,13 @@
   $.datepicker._base_doKeyDown = $.datepicker._doKeyDown;
 
   $.datepicker._doKeyDown = function (event) {
-    return $.datepicker._base_doKeyDown(event);
+    var ret = $.datepicker._base_doKeyDown(event);
+
+    if (event.keyCode === 13) {
+      $(event.currentTarget).datetimepicker('hide');
+    }
+
+    return ret;
   };
 
   $.datepicker._base_doKeyPress = $.datepicker._doKeyPress;
